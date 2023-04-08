@@ -6,17 +6,14 @@ import java.awt.event.ActionListener;
 public class GUI implements ActionListener {
 
     private int count = 0;
-    private final JPanel panel;
-    private final JFrame frame;
-    private final JButton button;
     private final JLabel label;
 
 
     public GUI(){
 
-        frame = new JFrame();
-        panel = new JPanel();
-        button = new JButton("Enter");
+        JFrame frame = new JFrame();
+        JPanel panel = new JPanel();
+        JButton button = new JButton("Enter");
         label = new JLabel("Welcome!");
 
         panel.setBorder(BorderFactory.createEmptyBorder(40,40,10,40));
