@@ -6,10 +6,10 @@ import java.awt.event.ActionListener;
 public class GUI implements ActionListener {
 
     private int count = 0;
-    private JPanel panel;
-    private JFrame frame;
-    private JButton button;
-    private JLabel label;
+    private final JPanel panel;
+    private final JFrame frame;
+    private final JButton button;
+    private final JLabel label;
 
 
     public GUI(){
